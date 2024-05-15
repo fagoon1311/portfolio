@@ -9,7 +9,7 @@ import { IoDocumentAttach } from "react-icons/io5";
 
 const Navbar = () => {
   return (
-    <nav className='mb-20 flex items-center justify-between py-6'>
+    <nav className='mb-10 flex items-center justify-between py-6'>
         <div className='flex flex-shrink-0 items-center'>
             <h1 className=' text-4xl font-bold text-neutral-900 border border-neutral-400 p-3 rounded-3xl bg-white'>FS</h1>
         </div>
