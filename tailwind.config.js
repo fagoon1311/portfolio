@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily:{
-      Inter:["Inter Tight", "sans-serif"]
+      Inter:["Inter Tight", "sans-serif"],
+      logo:["Great Vibes"]
     }
   },
   plugins: [],
