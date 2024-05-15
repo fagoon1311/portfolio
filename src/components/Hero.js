@@ -1,8 +1,8 @@
 import React from 'react'
 import {HERO_CONTENT} from '../constants'
 import { useRef } from 'react'
-// import hero from '../assets/2842680.jpg'
-import {useTypewriter, Cursor} from 'react-simple-typewriter'
+import { Typewriter } from 'react-simple-typewriter'
+
 
 import {motion} from 'framer-motion'
 import Lottie from 'lottie-react'
@@ -15,6 +15,7 @@ const container = (delay) => ({
 
 const Hero = () => {
   const animRef = useRef(null)
+  
     return (
         <div className='border-b border-neutral-900 pb-4 lg:mb-35'>
             <div className='flex flex-wrap'>
@@ -32,7 +33,17 @@ const Hero = () => {
                             animate="visible"
                             className='bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent'
                             style={{lineHeight: '1.8'}}>
-                              Software Engineer
+                              I am a <span>
+                                <Typewriter 
+                                  words={['Software Engineer', 'Front End Engineer', 'Data Analyst', 'PowerBI Developer', 'Teacher']}
+                                  loop={5}
+                                  cursor
+                                  cursorStyle='|'
+                                  cursorColor='white'
+                                  typeSpeed={120}
+                                  deleteSpeed={100}
+                              
+                              /></span>
                         </motion.span>
 
                         <motion.p 
