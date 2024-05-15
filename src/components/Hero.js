@@ -2,6 +2,7 @@ import React from 'react'
 import {HERO_CONTENT} from '../constants'
 import { useRef } from 'react'
 // import hero from '../assets/2842680.jpg'
+import {useTypewriter, Cursor} from 'react-simple-typewriter'
 
 import {motion} from 'framer-motion'
 import Lottie from 'lottie-react'
