@@ -1,7 +1,7 @@
 import React from 'react'
 import { EXPERIENCES } from '../constants'
 import { motion } from 'framer-motion'
-import {experience} from '../constants'
+// import {experience} from '../constants'
 const Experience = () => {
   return (
     <div className='border-b border-neutral-900 pb-4'>

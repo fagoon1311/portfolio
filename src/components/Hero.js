@@ -59,7 +59,7 @@ const Hero = () => {
                         initial={{x: 100, opacity: 0}}
                         animate={{x: 0, opacity: 1}}
                         transition={{duration: 1, delay: 0.5}}
-                        className='flex justify-center'>
+                        className='flex justify-center ml-10'>
                         {/* <img className="h-[25rem] w-[25rem] rounded-3xl pl-4" alt='herp' src={hero}></img> */}
                         <Lottie animationData={animationData} lottieRef={animRef} loop={false}/>
                     </motion.div>
