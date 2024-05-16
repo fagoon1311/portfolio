@@ -17,7 +17,7 @@ const Navbar = () => {
             <a href='https://www.linkedin.com/in/fagoon-sharma-a29640172/' target='_blank' rel="noreferrer"><FaLinkedin /></a>
             <a href='https://github.com/fagoon1311' target='_blank' rel="noreferrer"><FaGithub /></a>
             <a href='mailto:fs14smailbox65@gmail.com'><MdEmail/></a>
-            <a href='www.google.com'><IoDocumentAttach /></a>
+            <a href='./resume-2024.pdf' download={true}><IoDocumentAttach /></a>
         </div>
     </nav>
   )
