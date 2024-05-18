@@ -36,7 +36,7 @@ const Hero = () => {
                               I am a <span>
                                 <Typewriter 
                                   words={['Software Engineer', 'Front End Engineer', 'Data Analyst', 'PowerBI Developer', 'Teacher']}
-                                  loop={5}
+                                  loop={false}
                                   cursor
                                   cursorStyle='|'
                                   cursorColor='white'
